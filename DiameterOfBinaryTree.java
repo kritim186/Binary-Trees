@@ -1,3 +1,5 @@
+// Approach 1 ---> O(N^2)
+
 class DiameterOfBinaryTree{
     static class Node{
         int data;
@@ -29,6 +31,15 @@ class DiameterOfBinaryTree{
      }
 
      public static void main(String[] args) {
+        /*
+
+         1
+        / \
+       2   3
+      / \   \
+     4   5   6
+
+         */
         Node root = new Node(1);
         root.left = new Node(2);
         root.left.left = new Node(4);

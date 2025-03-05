@@ -55,6 +55,16 @@ public class TopView {
         }
     }
     public static void main(String[] args) {
+         /*
+
+         1
+        / \
+       2   3
+      / \   \
+     4   5   6
+     // Top view - 4 2 1 3 6
+
+         */
         Node root = new Node(1);
         root.left = new Node(2);
         root.left.left = new Node(4);
